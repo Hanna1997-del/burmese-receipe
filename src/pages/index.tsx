@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import Receipe from "@/components/Receipe";
+import Receipe from "./Receipe";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
