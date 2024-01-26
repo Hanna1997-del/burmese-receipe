@@ -12,17 +12,17 @@ export default function Category() {
     
     
   return (
-    <div className="mt-5" >
-           <Link href={"/"} className='border bg-purple-500 text-white rounded-lg ml-3 border-purple-500 px-5 py-1'>Back</Link>
-           <div className="flex flex-col lg:flex-row w-[1240px] h-screen gap-5 items-center " >
-           <div className='w-1/2 ml-5'>
+    <div className="mt-5 ml-5" >
+           <Link href={"/"} className='border bg-purple-500 text-white rounded-lg  border-purple-500 px-5 py-1'>Back</Link>
+           <div className="grid grid-cols-1 lg:grid-cols-2 w-screen h-screen gap-5 lg:items-center " >
+           <div className='w-1/2 lg:ml-5 ml-0 '>
             
            <img src={`/images/${receipe?.Name}.jpg`}
-           className=" border-double border-[10px] border-gray-300 p-4"
-           alt={receipe?.Name} width={300} height={300} />
+           className=" border-double border-[10px] mt-5 border-gray-300 p-4"
+           alt={receipe?.Name} width={600} height={600}  />
            </div>
 
-           <div className='w-1/2 flex flex-col gap-10 mt-16 pt-16'>
+           <div className='lg:w-1/2 w-[400px] flex flex-col  gap-10 mt-10  '>
             <h1  className='text-3xl font-bold '>Menu Name</h1>
            <h1 className='text-3xl font-bold text-purple-800'>{receipe?.Name}</h1>
            <h1 className='text-3xl font-bold'>Ingredients</h1>
