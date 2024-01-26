@@ -8,6 +8,7 @@ import Banner from "@/components/banner";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+ 
   return (
    <main className="w-[1240px] h-full  ml-10 mt-5">
     <div className="flex  items-center  gap-5 text-purple-800 ">
