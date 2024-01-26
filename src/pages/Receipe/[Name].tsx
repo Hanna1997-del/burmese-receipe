@@ -14,7 +14,7 @@ export default function Category() {
   return (
     <div className="mt-5" >
            <Link href={"/"} className='border bg-purple-500 text-white rounded-lg ml-3 border-purple-500 px-5 py-1'>Back</Link>
-           <div className="flex w-[1240px] h-screen gap-5 items-center mt-" >
+           <div className="flex flex-col lg:flex-row w-[1240px] h-screen gap-5 items-center " >
            <div className='w-1/2 ml-5'>
             
            <img src={`/images/${receipe?.Name}.jpg`}

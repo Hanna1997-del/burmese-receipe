@@ -17,9 +17,9 @@ const Receipe:React.FC<ReceipeProps> = () => {
    
     return (
         <>
-        <div className=" grid grid-cols-3 gap-10 mt-16">
+        <div className=" grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 lg:gap-10 mt-5 lg:mt-16">
         {Receipes.slice(0,visible).map((receipe, index)=>(
-         <div className="flex gap-5 max-w-[280px] max-h-[500px]  justify-center items-center mt-10 shadow-xl"  key={index}>
+         <div className="flex md:gap-1 lg:gap-5 max-w-[280px] max-h-[500px]  justify-center items-center mt-10 shadow-xl"  key={index}>
            
             
              <Link href={`/Receipe/${receipe.Name}`}>

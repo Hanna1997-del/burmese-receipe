@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
  
   return (
-   <main className="w-[1240px] h-full  ml-10 mt-5">
+   <main className="lg:w-[1240px] md:w-[700px] h-full  ml-10 mt-5">
     <div className="flex  items-center  gap-5 text-purple-800 ">
     <PiCookingPotFill size={30}  className=""/>
     <h1 className="font-bold text-3xl ">  Burmese Receipes</h1>
