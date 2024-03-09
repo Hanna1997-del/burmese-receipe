@@ -73,6 +73,15 @@ const Receipe:React.FC<ReceipeProps> = () => {
      </motion.button>
 
     
+     <motion.button
+      variants={buttonVariants}
+      whileHover="hover"
+     className="bg-purple-800 shadow-lg py-1 px-1 text-white rounded-lg" onClick={moreclick}>View More
+     </motion.button>
+
+     <button>
+        hello and then how are you
+     </button>
      </div>
      </>
       );
