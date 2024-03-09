@@ -397,8 +397,170 @@ export const Receipes = [
     }
   ]
 
+  export const ProList = [
+    {
+        img: "/syl.png",
+        name:"Syltherine",
+        title:"Stylish cafe chair",
+        price:"Rp 2.500.000",
+        discount:"Rp 3.500.000",
+        percent: "-30%", 
+        id: 1
+
+    },
+    {
+        img: "/lev.png",
+        name:"Leviosa",
+        title:"Stylish cafe chair",
+        price:"Rp 2.500.000",
+        id: 2
+       
+
+    },
+    {
+        img: "/lov.png",
+        name:"Lolito",
+        title:"Luxury big sofa",
+        price:"Rp 7.000.000",
+        discount:"Rp 14.000.000",
+        percent: "-50%",
+        id: 3
+
+    },
+   
+    {
+        img: "/res.png",
+        name:"Respira",
+        title:"Outdoor bar table and stool",
+        price:"Rp 500.000",
+        percent:"New",
+        id: 4
+
+    },
+    {
+        img: "/gri.png",
+        name:"Grifo",
+        title:"Night lamp",
+        price:"Rp 1.500.000",
+        id: 5
+       
+
+    },
+    {
+        img: "/mug.png",
+        name:"Muggo",
+        title:"Small mug",
+        price:"Rp 150.000",
+        percent:"New",
+        id: 6
+       
+
+    },
+    {
+        img: "/ping.png",
+        name:"Pingky",
+        title:"Cute bed set",
+        price:"Rp 7.000.000",
+        discount:"Rp 14.000.000",
+        percent: "-50%",
+        id: 7
+
+    },
+    {
+        img: "/pot.png",
+        name:"Potty",
+        title:"Minimalist flower potr",
+        price:"Rp 500.000",
+        id: 8
+       
+
+    },
+    
+        {
+            img: "/syl.png",
+            name:"Syltherine",
+            title:"Stylish cafe chair",
+            price:"Rp 2.500.000",
+            discount:"Rp 3.500.000",
+            percent: "-30%",
+            id: 9
+    
+        },
+        {
+            img: "/lev.png",
+            name:"Leviosa",
+            title:"Stylish cafe chair",
+            price:"Rp 2.500.000",
+           
+    
+        },
+        {
+            img: "/lov.png",
+            name:"Lolito",
+            title:"Luxury big sofa",
+            price:"Rp 7.000.000",
+            discount:"Rp 14.000.000",
+            percent: "-50%",
+            id: 10
+    
+        },
+       
+        {
+            img: "/res.png",
+            name:"Respira",
+            title:"Outdoor bar table and stool",
+            price:"Rp 500.000",
+            percent:"New",
+            id: 11
+    
+        },
+        {
+            img: "/gri.png",
+            name:"Grifo",
+            title:"Night lamp",
+            price:"Rp 1.500.000",
+            id: 12
+           
+    
+        },
+        {
+            img: "/mug.png",
+            name:"Muggo",
+            title:"Small mug",
+            price:"Rp 150.000",
+            percent:"New",
+            id: 13
+           
+    
+        },
+        {
+            img: "/ping.png",
+            name:"Pingky",
+            title:"Cute bed set",
+            price:"Rp 7.000.000",
+            discount:"Rp 14.000.000",
+            percent: "-50%",
+            id: 14
+    
+        },
+        {
+            img: "/pot.png",
+            name:"Potty",
+            title:"Minimalist flower potr",
+            price:"Rp 500.000",
+            id: 15
+           
+    
+        },
+    
+]
+
   export const fetchReceipeFromName = (Name:any) => {
     const fetchedReceipe = Receipes.find((receipe)=> receipe.Name === Name);
     return fetchedReceipe;
 }
 
+export const fetchReceipeFromId = (id:any) => {
+  const fetchedpd = ProList.find((pd)=> pd.id === id);
+  return fetchedpd;
+}
